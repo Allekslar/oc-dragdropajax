@@ -1,0 +1,3 @@
+defaultSort:
+    column: sort_drag
+    direction: asc

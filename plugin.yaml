@@ -1,0 +1,4 @@
+plugin:
+    name: 'allekslar.dragdropajax::lang.plugin.name'
+    description: 'allekslar.dragdropajax::lang.plugin.description'
+    author: Allekslar

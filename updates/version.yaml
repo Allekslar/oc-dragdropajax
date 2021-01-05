@@ -1,0 +1,5 @@
+1.0.0:
+    - 'Init plugin'
+    - 'Added "sort_drag" fields to lovata_shopaholic_products.'
+    - update_table_product.php   
+
