@@ -14,9 +14,7 @@ cd  allekslar
 ```
 * In the folder we execute
 ```shell 
-git clone  https://github.com/Allekslar/oc-dragdropajax.git
-
-mv  oc-dragdropajax/  dragdropajax/
+git clone  https://github.com/Allekslar/oc-dragdropajax.git dragdropajax
 ```
 
 * Go to your project root and run: `php artisan october:up`.
