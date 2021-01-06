@@ -1,6 +1,6 @@
 #oc-dragdropajaxshopaholic
 
-![Farmers Market Finder Demo](DragDropAjaxShopaholic.gif)
+![Farmers Market Finder Demo](DragdropAjax.gif)
 ## Installation (manual)
 
 * Open plugins directory  
