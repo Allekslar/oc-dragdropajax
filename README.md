@@ -1,6 +1,6 @@
-#oc-dragdropajax
+#oc-dragdropajaxshopaholic
 
-![Farmers Market Finder Demo](DragdropAjax.gif)
+![Farmers Market Finder Demo](DragDropAjaxShopaholic.gif)
 ## Installation (manual)
 
 * Open plugins directory  
@@ -14,7 +14,7 @@ cd  allekslar
 ```
 * In the folder we execute
 ```shell 
-git clone  https://github.com/Allekslar/oc-dragdropajax.git dragdropajax
+git clone  https://github.com/Allekslar/oc-dragdropajaxshopaholic.git dragdropajaxshopaholic
 ```
 
 * Go to your project root and run: `php artisan october:up`.

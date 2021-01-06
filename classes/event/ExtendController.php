@@ -1,11 +1,11 @@
-<?php namespace Allekslar\DragdropAjax\Classes\Event;
+<?php namespace Allekslar\DragDropAjaxShopaholic\Classes\Event;
 
 
 use Lovata\Shopaholic\Models\Product;
 use Lovata\Shopaholic\Controllers\Products;
 /**
  * Class ExtendController
- * @package Allekslar\DragdropAjax\Classes\Event
+ * @package Allekslar\DragDropAjaxShopaholic\Classes\Event
  */
 class ExtendController 
 {
@@ -38,9 +38,9 @@ class ExtendController
     {
         $obController->listConfig = $obController->mergeConfig(
             $obController->listConfig,
-            '$/allekslar/dragdropajax/config/config_listdragdropajax.yaml'
+            '$/allekslar/dragdropajaxshopaholic/config/config_listdragdropajax.yaml'
         );
-        $obController->implement[] = 'Allekslar.DragdropAjax.Behaviors.DragdropController';
+        $obController->implement[] = 'Allekslar.DragDropAjaxShopaholic.Behaviors.DragdropController';
 
 
     }
@@ -54,7 +54,7 @@ class ExtendController
     {
         $obWidget->addColumns([
             'sort_drag' => [
-                'label' => 'allekslar.dragdropajax::lang.field.position',
+                'label' => 'allekslar.dragdropajaxshopaholic::lang.field.position',
             ],
         ]);
     }

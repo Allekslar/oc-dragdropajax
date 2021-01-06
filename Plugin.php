@@ -1,15 +1,15 @@
 <?php
 
-namespace Allekslar\DragdropAjax;
+namespace Allekslar\DragDropAjaxShopaholic;
 
 use Event;
 use System\Classes\PluginBase;
-use Allekslar\DragdropAjax\Classes\Event\ExtendController;
-use Allekslar\DragdropAjax\Classes\Event\ProductModelHandler;
+use Allekslar\DragDropAjaxShopaholic\Classes\Event\ExtendController;
+use Allekslar\DragDropAjaxShopaholic\Classes\Event\ProductModelHandler;
 
 /**
  * Class Plugin
- * @package Allekslar\DragdropAjax
+ * @package Allekslar\DragDropAjaxShopaholic
  */
 class Plugin extends PluginBase
 {

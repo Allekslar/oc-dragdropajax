@@ -1,6 +1,6 @@
 <?php
 
-namespace Allekslar\DragdropAjax\Updates;
+namespace Allekslar\DragDropAjaxShopaholic\Updates;
 
 use Schema;
 use October\Rain\Database\Schema\Blueprint;

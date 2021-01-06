@@ -1,6 +1,6 @@
 <?php
 
-namespace Allekslar\DragdropAjax\Behaviors;
+namespace Allekslar\DragDropAjaxShopaholic\Behaviors;
 
 use Flash;
 use Lovata\Shopaholic\Models\Product;
@@ -20,9 +20,9 @@ class DragdropController extends \October\Rain\Extension\ExtensionBase
 
         $this->parent = $parent;
 
-        // add the dragdropajax requirements
+        // add the dragdropajaxshopaholic requirements
         $parent->addJs('https://code.jquery.com/ui/1.12.0/jquery-ui.min.js');
-        $parent->addJs('/plugins/allekslar/dragdropajax/assets/js/sort.js');
+        $parent->addJs('/plugins/allekslar/dragdropajaxshopaholic/assets/js/sort.js');
 
     }
 

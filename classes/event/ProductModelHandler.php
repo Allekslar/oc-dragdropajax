@@ -1,4 +1,4 @@
-<?php namespace Allekslar\DragdropAjax\Classes\Event;
+<?php namespace Allekslar\DragDropAjaxShopaholic\Classes\Event;
 
 use Lovata\Shopaholic\Classes\Item\ProductItem;
 use Lovata\Shopaholic\Models\Product;
@@ -93,7 +93,7 @@ class ProductModelHandler extends ModelHandler
 
         $arFieldList = [
             '_sort_drag_enable' => [
-                'label' => 'allekslar.dragdropajax::lang.field.position_enable',
+                'label' => 'allekslar.dragdropajaxshopaholic::lang.field.position_enable',
                 'tab' => 'lovata.toolbox::lang.tab.settings',
                 'span' => 'left',
                 'default' => 0,
@@ -102,7 +102,7 @@ class ProductModelHandler extends ModelHandler
 
             ],
             'sort_drag' => [
-                'label' => 'allekslar.dragdropajax::lang.field.position',
+                'label' => 'allekslar.dragdropajaxshopaholic::lang.field.position',
                 'tab' => 'lovata.toolbox::lang.tab.settings',
                 'span' => 'left',
                 'default' => 0,

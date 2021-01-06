@@ -1,14 +1,14 @@
 <?php return [
     'plugin' => [
-        'name' => 'DragdropAjax',
+        'name' => 'DragDropAjaxShopaholic',
         'description' => '',
     ],
     'field' => [
         'position' => 'Position',
         'position_enable' => 'Edit position',
     ],
-    'dragdropajax' => [
-        'name' => 'dragdropajax',
-        'list_title' => 'DragdropAjax list',
+    'dragdropajaxshopaholic' => [
+        'name' => 'dragdropajaxshopaholic',
+        'list_title' => 'DragDropAjaxShopaholic list',
     ],
 ];
