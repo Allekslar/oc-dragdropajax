@@ -1,4 +1,6 @@
-# Installation (manual)
+#oc-dragdropajax
+![Farmers Market Finder Demo](DragdropAjax.gif)
+## Installation (manual)
 
 * Open plugins directory  
 * Create a folder allekslar
