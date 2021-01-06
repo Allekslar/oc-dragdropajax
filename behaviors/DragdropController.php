@@ -34,15 +34,18 @@ class DragdropController extends \October\Rain\Extension\ExtensionBase
     public function onSort()
     {
         $request = \Request::all();
-          //sort initialization
+        //sort initialization
         if (0 == $request['min'] && 0 == $request['max']) {
-            $productList = Product::all();
+
             $position = 1;
-            foreach ($productList as $product) {
-                $product->sort_drag = $position;
-                $product->save();
-                $position++;
-            }
+            Product::chunkById(100, function ($productList) use (&$position) {
+                foreach ($productList as $product) {
+                    $product->sort_drag = $position;
+                    $product->save();
+                    $position++;
+                }
+            });
+            Flash::success('Sort initialization successful.');
             return $this->parent->listRefresh();
         }
 
